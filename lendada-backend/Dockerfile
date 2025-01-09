@@ -1,6 +1,6 @@
 # Docker 镜像构建
 # @author <a href="https://github.com/lenyanjgk">程序员冷颜</a>
-FROM maven:3.8.1-jdk-17 as builder
+FROM maven:3.8.1-jdk-11 as builder
 
 # Copy local code to the container image.
 WORKDIR /app
